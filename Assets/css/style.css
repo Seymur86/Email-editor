@@ -1,0 +1,248 @@
+@import url('./reset.css');
+@import url('./font.css');
+
+body {
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 2000px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.box span,
+.button a {
+    color: #acacac;
+    font-family: Montserrat, "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    line-height: 120%;
+}
+
+.box h1 {
+    color: rgb(2, 59, 92);
+    font-family: Lato, Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 120%;
+}
+
+.box button {
+    width: 100px;
+    background-color: #54E231;
+    border-radius: 20px;
+    border: solid #54E231;
+}
+
+.box p {
+    text-align: center;
+    font-family: Lato, Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 120%;
+    color: #023b5c;
+}
+
+.image {
+    width: 580px;
+    box-sizing: border-box;
+    height: 300px;
+    background-image: url('../img/Podcast_image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    width: 250px;
+    height: 60px;
+    background-color: rgb(2, 59, 92);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button a {
+    color: rgb(84, 226, 49);
+}
+
+.line {
+    width: 120px;
+    background-color: #54E231;
+    border-radius: 20px;
+    border: solid #54E231;
+}
+
+.box .middle-text {
+    color: rgb(2, 59, 92);
+    direction: ltr;
+    font-family: Lato, Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 120%;
+    text-align: left;
+}
+
+.box .middle-text strong,
+.box .middle-text-second strong {
+    font-weight: bolder;
+}
+
+.box .middle-text-second {
+    color: black;
+    font-family: Lato, Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: 150%;
+    text-align: left;
+}
+
+.box .catch {
+    color: rgb(2, 59, 92);
+    font-family: inherit;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.first-box,
+.second-box,
+.third-box {
+    width: 160px;
+    height: 180px;
+    background-image: url('../img/Podcast_Episode_Cover_31.png');
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+}
+
+.second-box {
+    background-image: url('../img/Podcast_Episode_Cover_30.png');
+}
+
+.third-box {
+    background-image: url('../img/Podcast_Episode_Cover_29.png');
+}
+
+.text-span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.text-span span {
+    color: rgb(2, 59, 92);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 120%;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+}
+
+.listen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.listen .first-listen span,
+.listen .second-listen span,
+.listen .third-listen span {
+    width: 300px;
+    height: 30px;
+    color: rgb(2, 59, 92);
+    font-size: 16px !important;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: normal;
+    margin: 40px;
+}
+
+.listen .first-listen button,
+.listen .second-listen button,
+.listen .third-listen button {
+    margin: 40px;
+    margin-top: 5px;
+}
+
+.final {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.final p {
+    width: 550px;
+    height: 30px;
+    margin-top: 30px;
+    color: rgb(102, 120, 127);
+    font-family: inherit;
+    font-size: 15px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: normal;
+}
+
+.final address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 30px;
+    gap: 5px;
+}
+
+.final address span {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: normal;
+    color: #0068a5;
+    text-decoration: underline;
+}
